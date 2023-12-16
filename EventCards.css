@@ -1,0 +1,28 @@
+/* src/components/EventCards.css */
+.event-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.book-now-button {
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #2980b9;
+}
